@@ -1,6 +1,11 @@
 import React from 'react';
 import {render} from 'react-dom';
 
-import App from './App.js';
+import Routers from './Router.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './main.css';
 
-render(<App />,document.getElementById('root'));
+import 'highlight.js/styles/github.css';
+import './post.css';
+
+render(<Routers />,document.getElementById('root'));
